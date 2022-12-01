@@ -4,46 +4,87 @@ import CardItem from './CardItem';
 
 function Cards() {
   return (
+    <div id="cardss">
     <div className='cards'>
-      <h1>Check out these EPIC Destinations!</h1>
+      <h1>THE TEAM</h1>
+      <h2>Supreme Student Council Officers</h2>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-9.jpg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
-              path='/services'
+              src='images/bprofile.png'
+              text='lorem ipsum dolor sit amet consectetur adipiscing elit. Fusce consequat lacus ante, nec maximus felis suspicit vitae. Proin quis nibh eros. Proin eu fermentum tellus, at dapibus turpis.'
+              label='President'
+              // path='/services'
             />
             <CardItem
-              src='images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
-              path='/services'
+              src='images/bprofile.png'
+              text='lorem ipsum dolor sit amet consectetur adipiscing elit. Fusce consequat lacus ante, nec maximus felis suspicit vitae. Proin quis nibh eros. Proin eu fermentum tellus, at dapibus turpis.'
+              label='Vice-President'
+             
+            />
+            <CardItem
+              src='images/bprofile.png'
+              text='lorem ipsum dolor sit amet consectetur adipiscing elit. Fusce consequat lacus ante, nec maximus felis suspicit vitae. Proin quis nibh eros. Proin eu fermentum tellus, at dapibus turpis.'
+              label='Secretary'
+              
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
-              path='/services'
+              src='images/bprofile.png'
+              text='lorem ipsum dolor sit amet consectetur adipiscing elit. Fusce consequat lacus ante, nec maximus felis suspicit vitae. Proin quis nibh eros. Proin eu fermentum tellus, at dapibus turpis.'
+              label='Member'
+              
+            />
+              <CardItem
+              src='images/bprofile.png'
+              text='lorem ipsum dolor sit amet consectetur adipiscing elit. Fusce consequat lacus ante, nec maximus felis suspicit vitae. Proin quis nibh eros. Proin eu fermentum tellus, at dapibus turpis.'
+              label='Member'
+              
             />
             <CardItem
-              src='images/img-4.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
-              path='/products'
+              src='images/bprofile.png'
+              text='lorem ipsum dolor sit amet consectetur adipiscing elit. Fusce consequat lacus ante, nec maximus felis suspicit vitae. Proin quis nibh eros. Proin eu fermentum tellus, at dapibus turpis.'
+              label='Member'
+              
+            />
+             <CardItem
+              src='images/bprofile.png'
+              text='lorem ipsum dolor sit amet consectetur adipiscing elit. Fusce consequat lacus ante, nec maximus felis suspicit vitae. Proin quis nibh eros. Proin eu fermentum tellus, at dapibus turpis.'
+              label='Member'
+              
+            />
+          </ul>
+          <ul className='cards__items'>
+            <CardItem
+              src='images/bprofile.png'
+              text='lorem ipsum dolor sit amet consectetur adipiscing elit. Fusce consequat lacus ante, nec maximus felis suspicit vitae. Proin quis nibh eros. Proin eu fermentum tellus, at dapibus turpis.'
+              label='Member'
+             
             />
             <CardItem
-              src='images/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
-              path='/sign-up'
+              src='images/bprofile.png'
+              text='lorem ipsum dolor sit amet consectetur adipiscing elit. Fusce consequat lacus ante, nec maximus felis suspicit vitae. Proin quis nibh eros. Proin eu fermentum tellus, at dapibus turpis.'
+              label='Member'
+             
+            />
+            <CardItem
+              src='images/bprofile.png'
+              text='lorem ipsum dolor sit amet consectetur adipiscing elit. Fusce consequat lacus ante, nec maximus felis suspicit vitae. Proin quis nibh eros. Proin eu fermentum tellus, at dapibus turpis.'
+              label='Member'
+              
+            />
+             <CardItem
+              src='images/bprofile.png'
+              text='lorem ipsum dolor sit amet consectetur adipiscing elit. Fusce consequat lacus ante, nec maximus felis suspicit vitae. Proin quis nibh eros. Proin eu fermentum tellus, at dapibus turpis.'
+              label='Member'
+             
             />
           </ul>
         </div>
       </div>
+    </div>
     </div>
   );
 }

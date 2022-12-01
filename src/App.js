@@ -7,7 +7,9 @@ import Services from './components/pages/Services/Services';
 import Products from './components/pages/Products/Products';
 import SignUp from './components/pages/SignUp/SignUp';
 import Footer from './components/pages/Footer/Footer';
-
+import GrievanceForm from './components/pages/form/GrievanceForm';
+import Dashboard from './components/pages/AdminDashboard/Dashboard';
+import MainPage from './components/pages/AdminLogin/MainPage';
 
 function App() {
   return (
@@ -18,6 +20,9 @@ function App() {
       <Route path='/services' element={<Services/>}/>
       <Route path='/products' element={<Products/>}/>
       <Route path='/sign-up' element={<SignUp/>}/>
+      <Route path='/form' element ={<GrievanceForm/>}/>
+      <Route path ='/dashboard' element = {<Dashboard/>}/>
+      <Route path ='/login' element = {<MainPage/>}/>
      </Routes>
      <Footer/>
       

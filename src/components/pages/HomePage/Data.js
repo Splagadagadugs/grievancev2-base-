@@ -1,11 +1,12 @@
 export const homeOBjOne = {
-    lightBg: false,
+    lightBg: true,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'Exclusive Access',
-    headline: 'Unlimited Transaction with zero fees',
-    description: 'Get access to our exclusive diamond card that allows you to send unlimited transactions witout getting charge any fees',
-    buttonLabel: 'Get Started',
+    topLine: 'WELCOME TO',
+    headline: 'PLM STUDENT ASSISTANCE',
+    title: 'GRIEVANCE',
+    bottomLine: 'HELP DESK',
+    buttonLabel: 'Submit A Form',
     imgStart: '',
     img: 'images/help desk.png',
     alt: 'Credit card'
@@ -13,15 +14,14 @@ export const homeOBjOne = {
 }
 
 export const homeOBjTwo = {
-    lightBg: true,
-    lightText: false,
+    lightBg: false,
+    lightText: true,
     lightTextDesc: false,
-    topLine: 'EASY SETUP',
-    headline: 'Super fast and simple onboarding process',
-    description:"Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go.",
-    buttonLabel: 'Start Now',
+    title: 'About Us',
+    description:'lorem ipsum dolor sit amet consectetur adipiscing elit. Fusce consequat lacus ante, nec maximus felis suspicit vitae. Proin quis nibh eros. Proin eu fermentum tellus, at dapibus turpis.',
+    buttonLabel: 'Learn More',
     imgStart: 'start',
-    img: 'images/Logo and Title.png',
+    img: 'images/logos.png',
     alt: 'Vault'
 
 }

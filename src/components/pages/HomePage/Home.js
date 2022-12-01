@@ -1,7 +1,7 @@
 import React from 'react'
 import HeroSection from '../../HeroSection'
 import {homeOBjOne,homeOBjTwo,homeOBjThree,homeOBjFour} from './Data'
-import Pricing from '../../Pricing'
+import HeroSection2 from '../../HeroSection2'
 import Cards from '../../Cards';
 import '../../Cards.css';
 
@@ -9,11 +9,8 @@ function Home() {
   return (
     <>
         <HeroSection {...homeOBjOne} />
-        <HeroSection {...homeOBjTwo} />
-        <HeroSection {...homeOBjThree} />
-        <Pricing/>
+        <HeroSection2 {...homeOBjTwo}/>
         <Cards/>
-        <HeroSection {...homeOBjFour} />
     </>
   )
 }

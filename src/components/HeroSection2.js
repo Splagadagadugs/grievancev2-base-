@@ -1,9 +1,9 @@
 import React from 'react'
 import {Button} from './Button'
 import {Link} from 'react-router-dom'
-import './HeroSection.css'
+import './HeroSection2.css'
 
-function HeroSection({
+function HeroSection2({
     lightBg, 
     topLine, 
     lightText, 
@@ -18,7 +18,7 @@ function HeroSection({
     imgStart
 }) {
   return (
-    <div id='herosection'>
+    <div id='herosection2'>
         <div className = {lightBg ? 'home__hero-section' : 'home__hero-section darkBg'}>
             <div className ="container">
                 <div className ="row home__hero-row" style={{display: 'flex', flexDirection: imgStart === 'start' ? 'row-reverse' : 'row'}}>
@@ -30,9 +30,8 @@ function HeroSection({
                             <div className="description">{description}</div>
                             <div className="bottom-line">{bottomLine}</div>
 
-                            <Link to="/form">
-                                <Button  buttonSize='btn--wide'>{buttonLabel}
-                                </Button>
+                            <Link to="/sign-up">
+                                <Button buttonSize='btn--wide'>{buttonLabel}</Button>
                             </Link> 
                         </div>
                     </div>
@@ -48,4 +47,4 @@ function HeroSection({
   );
 }
 
-export default HeroSection;
+export default HeroSection2;

@@ -1,5 +1,5 @@
 :root{
-    --primary: #fff;
+    --primary: #f4E12F;
 
 }
 
@@ -52,6 +52,8 @@
 .btn--wide{
     padding: 12px 64px;
     font-size: 20px;
+    border-radius: 40px;
+    box-shadow: 5px 10px 30px rgba(22,2,2,0.137);
 }
 
 .btn--large:hover, 
@@ -64,7 +66,7 @@
 
 .btn--wide:hover{
     color: #fff;
-    background-color: #f00946;
+    background-color: #1f045f;
     transition: all 0.2s ease-out;
 }
 
